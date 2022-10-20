@@ -1,2 +1,9 @@
-<script type="text/javascript">console.log("Bike Finder Pixel");</script>
+<script type="text/javascript">console.log("Bike Finder Pixel v13");</script>
 <script type="text/javascript" src="https://preeziecdn.azureedge.net/production/preguide.min.js"></script>
+<script type="text/javascript">
+  const isThankYouPage = window.location.href.includes("orderPlaced");
+  if (isThankYouPage) {
+    console.info("Thank You Page");
+    !function (e, t, n, p, r, s) { e.prz || ((p = e.prz = function () { p.process ? p.process.apply(p, arguments) : p.queue.push(arguments) }).queue = [], p.t = +new Date, (r = t.createElement(n)).async = 1, r.src = "https://widget-cdn.preezie.com/production/prz_pixel.min.js?t=" + 864e5 * Math.ceil(new Date / 864e5), (s = t.getElementsByTagName(n)[0]).parentNode.insertBefore(r, s)) }(window, document, "script"), prz("init", "PRE-732881");
+  }
+</script>

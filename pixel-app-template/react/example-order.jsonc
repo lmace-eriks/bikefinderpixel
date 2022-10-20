@@ -1,0 +1,106 @@
+{
+  "currency": "USD",
+  "eventName": "vtex:orderPlaced",
+  "event": "orderPlaced",
+  "accountName": "eriksbikeshop",
+  "orderGroup": "ebs759869",
+  "ordersInOrderGroup": [
+    "ebs759869-01"
+  ],
+  "salesChannel": "1",
+  "visitorOptinNewsletter": false,
+  "corporateName": null,
+  "visitorContactPhone": "+14146666666",
+  "visitorContactInfo": [
+    "lmace@eriksbikeshop.com",
+    "Lucas",
+    "Mace"
+  ],
+  "transactionId": "ebs759869",
+  "transactionDate": "2022-10-18T20:54:14.4864966Z",
+  "openTextField": null,
+  "transactionAffiliation": "ERIK'S",
+  "transactionTotal": 43.04,
+  "transactionShipping": 0,
+  "transactionSubtotal": 39.99,
+  "transactionDiscounts": 0,
+  "transactionTax": 0,
+  "transactionCustomTaxes": {
+    "MN STATE TAX: MINNESOTA": 2.75,
+    "MN CITY TAX: SAINT CLOUD": 0.2,
+    "MN SPECIAL TAX: STEARNS CO TR": 0.1
+  },
+  "transactionCurrency": "USD",
+  "transactionPaymentType": [
+    {
+      "group": "giftCard",
+      "paymentSystemName": "Vale",
+      "installments": 1,
+      "value": 4304
+    }
+  ],
+  "transactionShippingMethod": [
+    {
+      "selectedSla": "Pickup Store - St Cloud (Stcl)",
+      "itemId": "8016904"
+    }
+  ],
+  "transactionLatestShippingEstimate": "2022-10-19T22:00:00Z",
+  "transactionProducts": [
+    {
+      "id": "6541",
+      "name": "Specialized 2020 Echelon II MIPS Helmet S Acid-Lava-Purple",
+      "sku": "8016904",
+      "skuRefId": "EK3E91567",
+      "productRefId": "PR3E18228",
+      "ean": "888818464135",
+      "skuName": "S Acid-Lava-Purple",
+      "attachments": [],
+      "slug": "specialized-2020-echelon-ii-mips-helmet-pr3e18228",
+      "brand": "Specialized",
+      "brandId": "2000488",
+      "seller": "ERIK'S",
+      "sellerId": "1",
+      "category": "Helmets",
+      "categoryId": "10028",
+      "categoryTree": [
+        "Cycling",
+        "Helmets & Eyewear",
+        "Helmets"
+      ],
+      "categoryIdTree": [
+        "104",
+        "1020",
+        "10028"
+      ],
+      "priceTags": [
+        {
+          "identifier": null,
+          "isPercentual": false,
+          "value": 2.75
+        },
+        {
+          "identifier": null,
+          "isPercentual": false,
+          "value": 0.2
+        },
+        {
+          "identifier": null,
+          "isPercentual": false,
+          "value": 0.1
+        }
+      ],
+      "originalPrice": 39.99,
+      "price": 39.99,
+      "sellingPrice": 39.99,
+      "tax": 0,
+      "quantity": 1,
+      "components": [],
+      "measurementUnit": "un",
+      "unitMultiplier": 1
+    }
+  ],
+  "transactionPayment": {
+    "id": "96DE8123F853441BB7F1130C4BB1F76E"
+  }
+}
